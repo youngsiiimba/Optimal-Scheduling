@@ -1,5 +1,8 @@
 # Optimal-Scheduling
 
+IoT using ThingsSpeak
+https://thingspeak.com/channels/1833675
+
 ## Creating virtual env
 python3 -m venv env
 
