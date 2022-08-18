@@ -7,7 +7,7 @@ python3 -m venv env
 .\env\Scripts\activate
 
 ## In your enviroment install the dependecies 
-pip install requirements.txt
+pip install -r requirements.txt
 
 ## Send data to ThingsSpeak 
 First change URL and insert your own API key
