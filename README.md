@@ -15,6 +15,6 @@ First change URL and insert your own API key
 python data2thingsspeak.py
 
 ## Send commands to Arduino
-First run arduino code in the *receieveDataFromPython.ino* receieveDataFromPython folder
+First run the *receieveDataFromPython.ino* Arduino code in the receieveDataFromPython folder
 Then make sure the serial monitor in the Arduino IDE is closed
 Finally run *python arduinoCommands.py* to send commands to the Arudino
