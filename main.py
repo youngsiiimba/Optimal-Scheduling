@@ -14,7 +14,7 @@ from data_extract import data_extract
 # Define a function that will post on server every 15 Seconds
 def thingspeak_post(df):
     #threading.Timer(15,thingspeak_post).start()
-    for i in range(210, df.shape[0]):
+    for i in range(0, df.shape[0]):
         tyd, solar_power, diesel_gen, battery_power, wind_power, load_profile = data_extract(df, i)
 
         URl='https://api.thingspeak.com/update?api_key='
